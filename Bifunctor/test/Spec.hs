@@ -33,7 +33,6 @@ prop_FunctorId g val = checkEqualityId (fmap id g) g val
 
 main :: IO ()
 main = do
-  quickCheck $ prop_FunctorId sumaDos
+  (quickCheckWith stdArgs {maxSuccess = 100000}) $ prop_FunctorId sumaDos
   --print $ prop_FunctorId sumaDos 5
-  --print $ "Hola"
 
