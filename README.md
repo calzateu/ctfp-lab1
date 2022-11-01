@@ -5,6 +5,8 @@ Cristian Alzate Urrea
 
 ## Operating system
 Arch Linux x86_64
+
+
 Kernel: 5.17.6-arch1-1
 
 ## Stack version used
